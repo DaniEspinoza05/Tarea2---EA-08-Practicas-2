@@ -1,0 +1,246 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 90px 20px 0;
+    box-sizing: border-box;
+    
+}
+header {
+    position: fixed;
+    background-color: #FF0000;   
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+}
+
+aside {
+    color: #4F1814;
+    position: fixed;
+    background-color: dodgerblue;   
+    top: 90px;
+    left: 0;
+    bottom: 20px;
+    width: 20%;
+    max-height: 80%; 
+    overflow-y: auto; 
+}
+
+section {
+    overflow-y: scroll;
+    position: fixed;
+    background-color: #FFC733;   
+    top: 90px;
+    left: 20%;
+    bottom: 20px;
+    width: 80%;
+}
+
+footer {
+    position: fixed;
+    background-color: darkorange;   
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    color: white;
+}
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    
+    line-height: 40px;
+    flex-grow: 1; 
+    text-align: center; 
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
+.nav-link{
+    color: white; 
+    text-decoration: none;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.justificar {
+    text-align: justify;
+    
+}
+
+.colorFuente {
+    color: brown;
+}
+    
+section2 {
+    overflow-y: scroll;
+    position: fixed;
+    background-color: #FFC733;   
+    top: 90px;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+}
+
+section4 {
+    overflow-y: scroll;
+    position: fixed;
+    background-color: #3399ff;   
+    top: 90px;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+}
+
+.ColorAzul{
+    color: blue;
+}
+
+.centrar2{
+    color: green;
+    text-align: center;
+}
+
+.ColorCeleste{
+    color: deepskyblue;
+    
+}
+
+.ajustador {
+    font-size: 20px;
+    max-width: 1500px; 
+    text-align: justify;
+    padding: 20px; 
+}
+
+.ajustador2 {
+    max-width: 1500px; 
+    text-align: justify;
+    padding: 20px; 
+}
+
+.imagen {
+    max-width: 100%; 
+    height: auto; 
+}
+
+form {
+    margin: 0 auto; 
+    max-width: 500px; 
+}
+
+table {
+    width: 100%; 
+}
+
+td {
+    padding: 5px; 
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+.aviso {
+    font-size: 12px; 
+    color: #666; 
+}
+
+.linea-separadora {
+    border: 1px solid blue;
+    margin: 20px 40px;
+  }
+  
+  section3 {
+    overflow-y: scroll;
+    position: fixed;
+    background-color: #00cc99;   
+    top: 90px;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+}
+
+.centrar3{
+    text-align: center;
+    color: #ffffff;
+}
+
+.cine{
+    text-align: center;
+    color: #cc00cc;
+}
+
+.centrar4{
+    text-align: center;
+    margin-right: 10px;
+}
+
+.carrusel {
+    display: flex;
+    overflow-x: scroll; 
+    width: 1450px; 
+    white-space: nowrap;
+}
+
+.imagen2 {
+    margin-right: 20px; 
+}
+
+.cine2{
+    text-align: center;
+    color: green;
+}
+
+.centrar5{
+    text-align: center;
+    color: #0000cc;
+}
+
+section5 {
+    overflow-y: scroll;
+    position: fixed;
+    background-color: #000000;   
+    top: 90px;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+}
+
+.ajustador3{
+    font-size: 20px;
+    color: white;
+    max-width: 1500px; 
+    text-align: justify;
+    padding: 20px; 
+}
+
+section6 {
+    overflow-y: scroll;
+    position: fixed;
+    background-color: #33ffff;   
+    top: 90px;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+}
+
+section7 {
+    overflow-y: scroll;
+    position: fixed;
+    background-color: #99ff99;   
+    top: 90px;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+}
